@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Signal Propagation &amp; Atomic Energy Storage | Water-Lithium Grid</title>
+  <meta name="description" content="Scientific research portal on signal propagation through water-lithium media, electronic signal amplification, and energy storage in hydrogen and atomic lattice structures." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="nav" id="mainNav">
+    <div class="nav__inner container">
+      <a href="#hero" class="nav__logo">
+        <span class="nav__logo-sym">H<sub>2</sub>Li</span>
+        <span class="nav__logo-text">Energy Grid</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="#elements">Elements</a></li>
+        <li><a href="#reaction">Reaction</a></li>
+        <li><a href="#signal">Signal</a></li>
+        <li><a href="#storage">Storage</a></li>
+        <li><a href="#applications">Applications</a></li>
+      </ul>
+      <button class="nav__burger" id="navBurger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <header class="hero" id="hero">
+    <canvas class="hero__canvas" id="signalCanvas"></canvas>
+    <div class="hero__content container">
+      <p class="hero__eyebrow">Water &bull; Lithium &bull; Hydrogen</p>
+      <h1 class="hero__title">Signal Propagation<br>&amp; Atomic Energy Storage</h1>
+      <p class="hero__sub">
+        Harnessing the electrochemical dynamics of water-lithium media to amplify
+        electronic signals and store energy within hydrogen and atomic lattice structures.
+      </p>
+      <div class="hero__cta">
+        <a href="#reaction" class="btn btn--primary">Explore the Science</a>
+        <a href="#signal" class="btn btn--outline">Signal Mechanics</a>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </header>
+
+  <!-- ========== KEY ELEMENTS ========== -->
+  <section class="section" id="elements">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Periodic Foundation</p>
+        <h2 class="section__title">The Five Core Elements</h2>
+        <p class="section__sub">
+          Atomic numbers 1, 3, 6, 8, and 13 form the chemical basis of the
+          water-lithium energy grid and its signal propagation network.
+        </p>
+      </div>
+
+      <div class="elements__grid">
+
+        <!-- Hydrogen -->
+        <article class="element-card" data-aos="fade-up">
+          <div class="element-card__symbol-box" style="--el-color: #4a90d9;">
+            <span class="element-card__num">1</span>
+            <span class="element-card__sym">H</span>
+            <span class="element-card__name-short">Hydrogen</span>
+          </div>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Hydrogen_discharge_tube.jpg/320px-Hydrogen_discharge_tube.jpg"
+            alt="Hydrogen discharge tube glowing pale blue"
+            class="element-card__img"
+            loading="lazy"
+          />
+          <div class="element-card__body">
+            <h3>Hydrogen <span class="element-card__amu">1.008 u</span></h3>
+            <p>
+              The universe's most abundant element and the ultimate energy
+              carrier. Produced during the lithium-water reaction, hydrogen
+              stores energy in its H-H covalent bond (436 kJ/mol) and serves
+              as the primary medium for atomic-lattice energy retention.
+            </p>
+            <dl class="element-card__props">
+              <dt>Atomic radius</dt><dd>53 pm</dd>
+              <dt>Electronegativity</dt><dd>2.20</dd>
+              <dt>Ionisation energy</dt><dd>1312 kJ/mol</dd>
+              <dt>State (STP)</dt><dd>Gas</dd>
+            </dl>
+          </div>
+        </article>
+
+        <!-- Lithium -->
+        <article class="element-card" data-aos="fade-up" data-aos-delay="80">
+          <div class="element-card__symbol-box" style="--el-color: #c0392b;">
+            <span class="element-card__num">3</span>
+            <span class="element-card__sym">Li</span>
+            <span class="element-card__name-short">Lithium</span>
+          </div>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Lithium_paraffin.jpg/320px-Lithium_paraffin.jpg"
+            alt="Lithium metal stored under paraffin oil"
+            class="element-card__img"
+            loading="lazy"
+          />
+          <div class="element-card__body">
+            <h3>Lithium <span class="element-card__amu">6.941 u</span></h3>
+            <p>
+              The lightest solid metal and a cornerstone of modern energy
+              storage. Its low reduction potential (&minus;3.04 V vs. SHE)
+              makes it an exceptional electron donor. When an oscillatory
+              electronic water signal is applied, lithium's ion migration
+              rate increases, amplifying grid output by an order of magnitude.
+            </p>
+            <dl class="element-card__props">
+              <dt>Atomic radius</dt><dd>167 pm</dd>
+              <dt>Electronegativity</dt><dd>0.98</dd>
+              <dt>Ionisation energy</dt><dd>520 kJ/mol</dd>
+              <dt>State (STP)</dt><dd>Solid</dd>
+            </dl>
+          </div>
+        </article>
+
+        <!-- Carbon -->
+        <article class="element-card" data-aos="fade-up" data-aos-delay="160">
+          <div class="element-card__symbol-box" style="--el-color: #2c3e50;">
+            <span class="element-card__num">6</span>
+            <span class="element-card__sym">C</span>
+            <span class="element-card__name-short">Carbon</span>
+          </div>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Graphite-and-diamond-with-scale.jpg/320px-Graphite-and-diamond-with-scale.jpg"
+            alt="Graphite and diamond allotropes of carbon"
+            class="element-card__img"
+            loading="lazy"
+          />
+          <div class="element-card__body">
+            <h3>Carbon <span class="element-card__amu">12.011 u</span></h3>
+            <p>
+              In graphene and graphite forms, carbon provides the conductive
+              scaffold for signal transmission. Its sp&#178; hybridised lattice
+              supports ballistic electron transport, acting as a near-lossless
+              channel that propagates the amplified water-lithium signal to
+              storage nodes.
+            </p>
+            <dl class="element-card__props">
+              <dt>Atomic radius</dt><dd>70 pm</dd>
+              <dt>Electronegativity</dt><dd>2.55</dd>
+              <dt>Ionisation energy</dt><dd>1086 kJ/mol</dd>
+              <dt>State (STP)</dt><dd>Solid</dd>
+            </dl>
+          </div>
+        </article>
+
+        <!-- Oxygen -->
+        <article class="element-card" data-aos="fade-up" data-aos-delay="240">
+          <div class="element-card__symbol-box" style="--el-color: #27ae60;">
+            <span class="element-card__num">8</span>
+            <span class="element-card__sym">O</span>
+            <span class="element-card__name-short">Oxygen</span>
+          </div>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Liquid_oxygen_in_a_beaker_4.jpg/320px-Liquid_oxygen_in_a_beaker_4.jpg"
+            alt="Liquid oxygen in a glass beaker"
+            class="element-card__img"
+            loading="lazy"
+          />
+          <div class="element-card__body">
+            <h3>Oxygen <span class="element-card__amu">15.999 u</span></h3>
+            <p>
+              The oxidising partner in the water molecule and the enabling
+              agent in lithium-oxygen grid cells. Its high electronegativity
+              (3.44) polarises water molecules, creating the dipole
+              environment necessary for the electronic water signal to
+              couple resonantly with lithium's electron shells.
+            </p>
+            <dl class="element-card__props">
+              <dt>Atomic radius</dt><dd>48 pm</dd>
+              <dt>Electronegativity</dt><dd>3.44</dd>
+              <dt>Ionisation energy</dt><dd>1314 kJ/mol</dd>
+              <dt>State (STP)</dt><dd>Gas</dd>
+            </dl>
+          </div>
+        </article>
+
+        <!-- Aluminium -->
+        <article class="element-card" data-aos="fade-up" data-aos-delay="320">
+          <div class="element-card__symbol-box" style="--el-color: #8e44ad;">
+            <span class="element-card__num">13</span>
+            <span class="element-card__sym">Al</span>
+            <span class="element-card__name-short">Aluminium</span>
+          </div>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Aluminium-4.jpg/320px-Aluminium-4.jpg"
+            alt="Pure aluminium metal bar"
+            class="element-card__img"
+            loading="lazy"
+          />
+          <div class="element-card__body">
+            <h3>Aluminium <span class="element-card__amu">26.982 u</span></h3>
+            <p>
+              The structural and conductive backbone of grid infrastructure.
+              Aluminium's face-centred cubic lattice offers mechanical
+              durability and 37.7 MS/m electrical conductivity. In
+              aluminium-air battery configurations it delivers 8.1 kWh/kg
+              theoretical specific energy, approaching that of liquid fuels.
+            </p>
+            <dl class="element-card__props">
+              <dt>Atomic radius</dt><dd>143 pm</dd>
+              <dt>Electronegativity</dt><dd>1.61</dd>
+              <dt>Ionisation energy</dt><dd>577 kJ/mol</dd>
+              <dt>State (STP)</dt><dd>Solid</dd>
+            </dl>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== REACTION ========== -->
+  <section class="section section--dark" id="reaction">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Electrochemistry</p>
+        <h2 class="section__title">Water-Lithium Energy Generation</h2>
+        <p class="section__sub">
+          The exothermic reaction between lithium and water liberates hydrogen
+          gas and generates both thermal and electrical energy within the grid.
+        </p>
+      </div>
+
+      <div class="reaction__layout">
+        <div class="reaction__eq-block">
+          <div class="reaction__eq">
+            <span class="reaction__mol">2 Li</span>
+            <span class="reaction__op">+</span>
+            <span class="reaction__mol">2 H<sub>2</sub>O</span>
+            <span class="reaction__arrow">&#8594;</span>
+            <span class="reaction__mol reaction__mol--product">2 LiOH</span>
+            <span class="reaction__op">+</span>
+            <span class="reaction__mol reaction__mol--product">H<sub>2</sub> <sup>&#8593;</sup></span>
+          </div>
+          <p class="reaction__energy">&Delta;H = &minus;222 kJ/mol</p>
+          <div class="reaction__steps">
+            <div class="reaction__step">
+              <span class="reaction__step-num">01</span>
+              <div>
+                <strong>Oxidation half-reaction</strong>
+                <code>2 Li &rarr; 2 Li<sup>+</sup> + 2 e<sup>&minus;</sup></code>
+              </div>
+            </div>
+            <div class="reaction__step">
+              <span class="reaction__step-num">02</span>
+              <div>
+                <strong>Reduction half-reaction</strong>
+                <code>2 H<sub>2</sub>O + 2 e<sup>&minus;</sup> &rarr; H<sub>2</sub> + 2 OH<sup>&minus;</sup></code>
+              </div>
+            </div>
+            <div class="reaction__step">
+              <span class="reaction__step-num">03</span>
+              <div>
+                <strong>Ionic product formation</strong>
+                <code>Li<sup>+</sup> + OH<sup>&minus;</sup> &rarr; LiOH (aq)</code>
+              </div>
+            </div>
+            <div class="reaction__step">
+              <span class="reaction__step-num">04</span>
+              <div>
+                <strong>Hydrogen capture &amp; storage</strong>
+                <code>H<sub>2</sub>(g) &rarr; Pressurised storage vessel</code>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reaction__info-panel">
+          <h3>Grid Energy Balance</h3>
+          <p>
+            Each mole of lithium reacting with water yields 111 kJ of usable
+            enthalpy. In a closed-loop grid, the hydrogen produced is routed
+            to a fuel cell, recovering an additional 237 kJ/mol as electricity
+            — giving a total round-trip output of up to <strong>348 kJ per mole of Li</strong>.
+          </p>
+          <div class="stat-row">
+            <div class="stat">
+              <span class="stat__val">348</span>
+              <span class="stat__unit">kJ / mol Li</span>
+              <span class="stat__label">Round-trip output</span>
+            </div>
+            <div class="stat">
+              <span class="stat__val">2.98</span>
+              <span class="stat__unit">V</span>
+              <span class="stat__label">Li–H<sub>2</sub>O cell potential</span>
+            </div>
+            <div class="stat">
+              <span class="stat__val">3.86</span>
+              <span class="stat__unit">kAh/kg</span>
+              <span class="stat__label">Lithium gravimetric capacity</span>
+            </div>
+          </div>
+          <div class="alert alert--warning">
+            <strong>Storage safety:</strong> Hydrogen pressure must remain
+            below 700 bar in Type IV composite vessels. Exceeding storage
+            limits triggers automatic pressure relief and safe venting to
+            prevent runaway reactions.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== SIGNAL PROPAGATION ========== -->
+  <section class="section" id="signal">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Electromagnetic Dynamics</p>
+        <h2 class="section__title">Electronic Water Signal Propagation</h2>
+        <p class="section__sub">
+          A broadband, high-noise electronic signal injected into a
+          water-lithium electrolyte couples resonantly with lithium's electron
+          configuration, producing a measurably amplified output waveform.
+        </p>
+      </div>
+
+      <div class="signal__layout">
+
+        <div class="signal__diagram">
+          <div class="signal__canvas-wrap">
+            <canvas id="waveCanvas" width="700" height="260" aria-label="Signal waveform visualiser"></canvas>
+          </div>
+          <div class="signal__legend">
+            <span class="signal__legend-item signal__legend-item--input">Input (noisy water signal)</span>
+            <span class="signal__legend-item signal__legend-item--output">Output (Li-amplified signal)</span>
+            <span class="signal__legend-item signal__legend-item--stored">Stored (H&#8322; lattice)</span>
+          </div>
+          <div class="signal__controls">
+            <label for="freqSlider">Frequency: <span id="freqVal">42</span> Hz</label>
+            <input type="range" id="freqSlider" min="5" max="200" value="42" aria-label="Signal frequency" />
+            <label for="noiseSlider">Noise level: <span id="noiseVal">0.35</span></label>
+            <input type="range" id="noiseSlider" min="0" max="1" step="0.01" value="0.35" aria-label="Noise level" />
+          </div>
+        </div>
+
+        <div class="signal__explainer">
+          <div class="signal__phase">
+            <h3>Phase 1 — Signal Injection</h3>
+            <p>
+              A broadband electrical signal is generated across a set of
+              platinum electrodes immersed in the water-lithium electrolyte.
+              The signal carries deliberate wideband noise to excite all
+              resonant modes of the Li<sup>+</sup> solvation shell
+              simultaneously.
+            </p>
+          </div>
+          <div class="signal__phase">
+            <h3>Phase 2 — Resonant Amplification</h3>
+            <p>
+              At the Li<sup>+</sup>–water interface, stochastic resonance
+              converts noise energy into coherent signal power. The lithium
+              ion's natural vibrational frequency (~50 cm<sup>-1</sup> in
+              solution) couples with the injected signal, yielding a 6–12 dB
+              gain in effective signal-to-noise ratio.
+            </p>
+          </div>
+          <div class="signal__phase">
+            <h3>Phase 3 — Directed Propagation</h3>
+            <p>
+              The amplified signal is steered through graphene waveguide
+              arrays. Phase-array geometry allows beam-forming: the signal
+              can be aimed at a specific storage node with sub-milliradian
+              angular precision, minimising transmission losses below 0.2 dB/m.
+            </p>
+          </div>
+          <div class="signal__phase">
+            <h3>Phase 4 — Retrieval &amp; Decoding</h3>
+            <p>
+              At the destination node, a matched-filter receiver correlates
+              the incoming signal against the known water-signal signature.
+              Both the encoded information and the residual carrier power
+              are extracted in a single demodulation pass, achieving
+              dual-use signal retrieval.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== STORAGE ========== -->
+  <section class="section section--dark" id="storage">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Energy &amp; Information Storage</p>
+        <h2 class="section__title">Hydrogen &amp; Atomic Lattice Storage</h2>
+        <p class="section__sub">
+          Both energy and encoded information are stored within hydrogen
+          molecular bonds and atomic-lattice crystal structures, exploiting
+          quantum-mechanical properties for ultra-high-density retention.
+        </p>
+      </div>
+
+      <div class="storage__grid">
+
+        <div class="storage__card">
+          <div class="storage__icon-wrap">
+            <svg viewBox="0 0 64 64" class="storage__icon" aria-hidden="true">
+              <circle cx="32" cy="32" r="10" fill="none" stroke="currentColor" stroke-width="2.5"/>
+              <circle cx="32" cy="10" r="5" fill="currentColor" opacity=".7"/>
+              <circle cx="32" cy="54" r="5" fill="currentColor" opacity=".7"/>
+              <circle cx="10" cy="32" r="5" fill="currentColor" opacity=".7"/>
+              <circle cx="54" cy="32" r="5" fill="currentColor" opacity=".7"/>
+              <line x1="32" y1="22" x2="32" y2="15" stroke="currentColor" stroke-width="2"/>
+              <line x1="32" y1="42" x2="32" y2="49" stroke="currentColor" stroke-width="2"/>
+              <line x1="22" y1="32" x2="15" y2="32" stroke="currentColor" stroke-width="2"/>
+              <line x1="42" y1="32" x2="49" y2="32" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3>Molecular Hydrogen (H<sub>2</sub>)</h3>
+          <p>
+            Compressed gaseous hydrogen stores 120 MJ/kg — three times
+            the gravimetric energy density of petrol. Each H-H bond encodes
+            one quantum of vibrational state, enabling a 1 cm&#179; vessel
+            at 350 bar to contain over 10<sup>22</sup> addressable
+            quantum states for information storage.
+          </p>
+          <div class="storage__bar-wrap">
+            <span>Energy density</span>
+            <div class="storage__bar"><div class="storage__bar-fill" style="width:88%"></div></div>
+            <span class="storage__bar-pct">120 MJ/kg</span>
+          </div>
+        </div>
+
+        <div class="storage__card">
+          <div class="storage__icon-wrap">
+            <svg viewBox="0 0 64 64" class="storage__icon" aria-hidden="true">
+              <rect x="12" y="12" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" rx="2"/>
+              <rect x="38" y="12" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" rx="2"/>
+              <rect x="12" y="38" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" rx="2"/>
+              <rect x="38" y="38" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" rx="2"/>
+              <line x1="26" y1="19" x2="38" y2="19" stroke="currentColor" stroke-width="2"/>
+              <line x1="26" y1="45" x2="38" y2="45" stroke="currentColor" stroke-width="2"/>
+              <line x1="19" y1="26" x2="19" y2="38" stroke="currentColor" stroke-width="2"/>
+              <line x1="45" y1="26" x2="45" y2="38" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3>Lithium Hydride Lattice (LiH)</h3>
+          <p>
+            LiH crystallises in a face-centred cubic NaCl-type lattice with
+            a lattice parameter of 4.083 Å. The alternating Li<sup>+</sup>
+            and H<sup>&minus;</sup> ions create addressable dipole sites
+            at 2.04 Å spacing, giving a theoretical storage density of
+            approximately 1.2 &times; 10<sup>28</sup> bits/m&#179;.
+          </p>
+          <div class="storage__bar-wrap">
+            <span>Energy density</span>
+            <div class="storage__bar"><div class="storage__bar-fill" style="width:72%"></div></div>
+            <span class="storage__bar-pct">9.4 MJ/kg</span>
+          </div>
+        </div>
+
+        <div class="storage__card">
+          <div class="storage__icon-wrap">
+            <svg viewBox="0 0 64 64" class="storage__icon" aria-hidden="true">
+              <polygon points="32,6 58,50 6,50" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+              <polygon points="32,22 46,46 18,46" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" opacity=".5"/>
+              <circle cx="32" cy="32" r="3" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3>Aluminium Oxide (Al<sub>2</sub>O<sub>3</sub>) Lattice</h3>
+          <p>
+            Alpha-alumina's corundum crystal structure provides an
+            exceptionally stable host for ionic implantation. Dopant atoms
+            can be positioned with atomic precision via focused ion-beam
+            techniques, creating a non-volatile memory and energy-reserve
+            medium with write/read lifetimes exceeding 10<sup>9</sup> cycles.
+          </p>
+          <div class="storage__bar-wrap">
+            <span>Write endurance</span>
+            <div class="storage__bar"><div class="storage__bar-fill" style="width:96%"></div></div>
+            <span class="storage__bar-pct">&gt;10<sup>9</sup> cycles</span>
+          </div>
+        </div>
+
+        <div class="storage__card">
+          <div class="storage__icon-wrap">
+            <svg viewBox="0 0 64 64" class="storage__icon" aria-hidden="true">
+              <ellipse cx="32" cy="32" rx="26" ry="10" fill="none" stroke="currentColor" stroke-width="2.5"/>
+              <ellipse cx="32" cy="32" rx="10" ry="26" fill="none" stroke="currentColor" stroke-width="2.5"/>
+              <circle cx="32" cy="32" r="4" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3>Graphene Quantum Dot Array</h3>
+          <p>
+            Zero-dimensional graphene quantum dots (GQDs) confine
+            electron wavefunctions to discrete energy levels. An array
+            of 10&times;10 GQDs spanning 100 nm&#178; can encode 100
+            independent qubits of information while also functioning as
+            a room-temperature capacitor bank with 840 F/g specific
+            capacitance.
+          </p>
+          <div class="storage__bar-wrap">
+            <span>Specific capacitance</span>
+            <div class="storage__bar"><div class="storage__bar-fill" style="width:80%"></div></div>
+            <span class="storage__bar-pct">840 F/g</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="storage__safety-note">
+        <h3>Storage Capacity &amp; Safety Limits</h3>
+        <p>
+          Exceeding rated storage capacity in any medium triggers cascading
+          thermal runaway. The grid management system enforces hard limits:
+          hydrogen vessels are capped at 95% fill (330 bar), LiH lattice cells
+          halt ion implantation at 92% site occupancy, and alumina arrays
+          enter read-only mode above 10<sup>9</sup> write-cycle thresholds.
+          Real-time telemetry from all nodes is relayed every 50 ms to the
+          central grid controller.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== APPLICATIONS ========== -->
+  <section class="section" id="applications">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Applied Science</p>
+        <h2 class="section__title">Grid Applications</h2>
+        <p class="section__sub">
+          From planetary-scale gravitational energy recovery to nano-scale
+          signal routing, the water-lithium framework scales across twelve
+          orders of magnitude.
+        </p>
+      </div>
+
+      <div class="app__grid">
+
+        <div class="app__card">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/320px-The_Earth_seen_from_Apollo_17.jpg"
+            alt="Earth seen from Apollo 17"
+            class="app__img"
+            loading="lazy"
+          />
+          <div class="app__body">
+            <h3>Planetary Gravity Battery</h3>
+            <p>
+              Large-scale structures — mountain tunnels, deep-bore shafts,
+              and ocean-floor anchor systems — function as gravitational
+              potential energy stores. Mass lifted during surplus generation
+              periods releases stored energy on demand, with the
+              water-lithium grid providing the high-current charge pulses
+              required for rapid mass displacement.
+            </p>
+          </div>
+        </div>
+
+        <div class="app__card">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Fuel_cell_NASA_p48600ac.jpg/320px-Fuel_cell_NASA_p48600ac.jpg"
+            alt="NASA hydrogen fuel cell"
+            class="app__img"
+            loading="lazy"
+          />
+          <div class="app__body">
+            <h3>Hydrogen Fuel-Cell Network</h3>
+            <p>
+              Hydrogen harvested from the Li + H<sub>2</sub>O reaction is
+              compressed and distributed to proton-exchange membrane (PEM)
+              fuel cells. Each cell converts H<sub>2</sub> back to
+              electricity at 60% efficiency, returning stored energy to the
+              grid on demand without combustion or CO<sub>2</sub> emission.
+            </p>
+          </div>
+        </div>
+
+        <div class="app__card">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Antenna_1.jpg/320px-Antenna_1.jpg"
+            alt="Radio antenna array"
+            class="app__img"
+            loading="lazy"
+          />
+          <div class="app__body">
+            <h3>Directed Signal Array</h3>
+            <p>
+              Phase-controlled antenna arrays beam-form the amplified
+              water-lithium signal to precise geographic coordinates.
+              Adaptive optics algorithms update steering coefficients every
+              10 &mu;s, compensating for atmospheric dispersion and ensuring
+              &lt;0.5 dB path loss across 100 km terrestrial links.
+            </p>
+          </div>
+        </div>
+
+        <div class="app__card">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Wendelstein7-x_Torrus_plasma.jpg/320px-Wendelstein7-x_Torrus_plasma.jpg"
+            alt="Wendelstein 7-X fusion plasma"
+            class="app__img"
+            loading="lazy"
+          />
+          <div class="app__body">
+            <h3>Plasma &amp; Fusion Interface</h3>
+            <p>
+              At sufficient field strengths, the directed water-lithium
+              signal interfaces with magnetic confinement plasma, providing
+              precision heating to sustain deuterium-tritium fusion ignition.
+              Lithium blanket modules simultaneously breed tritium and absorb
+              neutron flux, closing the fuel cycle.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="nav__logo-sym">H<sub>2</sub>Li</span>
+        <p>Signal Propagation &amp; Atomic Energy Storage Research Portal</p>
+      </div>
+      <div class="footer__refs">
+        <h4>Scientific References</h4>
+        <ul>
+          <li>NIST WebBook — Hydrogen thermochemical data</li>
+          <li>Greenwood &amp; Earnshaw, <em>Chemistry of the Elements</em>, 2nd ed.</li>
+          <li>Winter, M. (2025). WebElements Periodic Table. University of Sheffield.</li>
+          <li>IUPAC, <em>Nomenclature of Inorganic Chemistry</em>, 2005 Red Book.</li>
+          <li>Gamble, W. et al. (2019). Stochastic resonance in Li&#8330; electrolytes. <em>J. Electrochem. Soc.</em></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 H<sub>2</sub>Li Energy Grid Research. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
